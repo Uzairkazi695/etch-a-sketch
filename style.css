@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid black; */
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+}
+.my-div {
+    display: flex;
+    flex: 1 1 auto;
+    border: 2px solid black;
+    flex-wrap: wrap;
+
+    /* width: 30px;
+    height: 30px; */
+    /* flex-direction: column; */
+}
